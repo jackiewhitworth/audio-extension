@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&family=Satisfy&display=swap');
+
+button {
+  height: auto;
+  width: 200px;
+  background: rgb(136,69,176);
+  background: linear-gradient(90deg, rgba(136,69,176,1) 2%, rgba(208,174,217,1) 100%);
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+span {
+  font-family: 'Satisfy', cursive;
+  font-size: 24px;
+}

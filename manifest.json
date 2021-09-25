@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "Lofi Anytime",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    "resources/music.mp3"
+  ],
+
+  "permissions": ["storage", "activeTab", "declarativeContent"],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "icons": {
+    // "16": "/images/get_started16.png",
+    // "32": "/images/get_started32.png",
+    "48": "/images/LofiGirl.png"
+    // "128": "/images/apple128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "/images/LofiGirl.png"
+    // "default_popup": "popup.html"
+
+  }
+}
